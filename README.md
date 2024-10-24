@@ -1,7 +1,7 @@
 # QuPath for Beginners
 
 ## Requirements
--	QuPath ([0.6.0-rc3](https://github.com/qupath/qupath/releases/tag/v0.6.0-rc3) for the latest features). Installation instructions [here](https://qupath.readthedocs.io/en/latest/docs/intro/installation.html).
+-	QuPath (version [0.6.0-rc3](https://github.com/qupath/qupath/releases/tag/v0.6.0-rc3) for the latest features). Installation instructions [here](https://qupath.readthedocs.io/en/latest/docs/intro/installation.html).
 -	Image(s). The following workshop uses [OS-2.ndpi, OS-3.ndpi](https://openslide.cs.cmu.edu/download/openslide-testdata/Hamamatsu/) and [BBBC007_v1_images](https://bbbc.broadinstitute.org/BBBC007). 
 
 Optional Extensions via the extension manager within QuPath
