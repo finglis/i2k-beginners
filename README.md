@@ -62,7 +62,7 @@ Instanseg! Try some pre-trained segmentation models by following the instruction
 Save yourself some time and use a script (dont let it scare you!). You don't have to know programming to script as QuPath tracks your workflow and then generates the script for you. More on generating a script can be found [here](https://qupath.readthedocs.io/en/latest/docs/scripting/workflows_to_scripts.html).
 
 ### Measuring areas?
-Not everyone is staining for cells and thats where the pixel classifer can be useful. 
+Not everyone is staining for cells and thats where the pixel classifer can be useful. The [QuPath documentation](https://qupath.readthedocs.io/en/latest/docs/tutorials/pixel_classification.html) guides through a simple and more complex classification. 
 
 ### Using an OMERO server?
 OMERO remotley stores images and QuPaths OMERO extension provides a great way to interact and analyze them without filling up your computers storage. More on the extension can be found [here](https://github.com/qupath/qupath-extension-omero)
