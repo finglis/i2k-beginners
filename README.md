@@ -33,8 +33,8 @@ When you open an imported image, you will be prompted to select the type of imag
 
 ### Draw annotation
 Define the region you would like to count some cells within using the [annotation tools](https://qupath.readthedocs.io/en/latest/docs/starting/annotating.html) within the toolbar. If you create one you dislike, they can be easily deleted by selecting so they are yellow (instead of red) and then press the backspace key. The bigger the annotation the more effort it will take for the computer so it’s best to start with a smaller annotation for now and make it bigger once we know the parameters you’re looking for. 
-![image](![image](https://qupath.readthedocs.io/en/latest/_images/ki67_detecting_annotation.jpg)
-)
+![image](![image](https://qupath.readthedocs.io/en/latest/_images/drawings.jpg)
+
 
 ### Detect cells
 Now we have a region, we can count some cells! In the menu, select `Analyze → Cell detection → Positive cell detection`. Lots of parameters can be edited in this window to suit your specific cells and we reccomend spending some time finely tuning these to your cell types. 
