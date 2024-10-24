@@ -27,7 +27,7 @@ For easy organisation of images and analysis we recommend working on your images
 ### Import images
 Once you have a project, [images can also be added](https://qupath.readthedocs.io/en/latest/docs/tutorials/projects.html#add-images) to the project by dragging and dropping them into QuPath. This will prompt the import window where you can finely tune some of the parameters if required. 
 
-![image](![image](https://qupath.readthedocs.io/en/latest/_images/project_import.png)
+![image](https://qupath.readthedocs.io/en/latest/_images/project_import.png)
 
 ### Set the image stain type
 When you open an imported image, you will be prompted to select the type of image. This lets QuPath know what stains the image has so it can assign them “channels”. For example, an H&E image would have a channel for Haematoxylin and Eosin after the default color profiles have been extracted. More on extracting the stains can be found in the [QuPath docs](https://qupath.readthedocs.io/en/latest/docs/tutorials/separating_stains.html).
@@ -41,7 +41,7 @@ Define the region you would like to count some cells within using the [annotatio
 
 
 ### Detect cells
-Now we have a region, we can count some cells! In the menu, select `Analyze → Cell detection → Positive cell detection`. Lots of parameters can be edited in this window to suit your specific cells and we reccomend spending some time finely tuning these to your cell types. 
+Now we have a region, we can count some cells! In the menu, select `Analyze → Cell detection → Positive cell detection`. Lots of parameters can be edited in this window to suit your specific cells and we recommend spending some time finely tuning these to your cell types. 
 
 ![image](https://qupath.readthedocs.io/en/latest/_images/ki67_detecting_final_markup.jpg)
 
@@ -55,15 +55,15 @@ The measurements can either be exported from the [measurement table](https://qup
 
 ## What if?
 
-### The cell detection isnt good enough?
+### The cell detection isn't good enough?
 Instanseg! Try some pre-trained segmentation models by following the instructions [here](https://github.com/qupath/qupath-extension-instanseg).
 
 ### Many images needing the same analysis?
-Save yourself some time and use a script (dont let it scare you!). You don't have to know programming to script as QuPath tracks your workflow and then generates the script for you. More on generating a script can be found [here](https://qupath.readthedocs.io/en/latest/docs/scripting/workflows_to_scripts.html).
+Save yourself some time and use a script (don't let it scare you!). You don't have to know programming to script as QuPath tracks your workflow and then generates the script for you. More on generating a script can be found [here](https://qupath.readthedocs.io/en/latest/docs/scripting/workflows_to_scripts.html).
 
 ### Measuring areas?
-Not everyone is staining for cells and thats where the pixel classifer can be useful. The [QuPath documentation](https://qupath.readthedocs.io/en/latest/docs/tutorials/pixel_classification.html) guides through a simple and more complex classification. 
+Not everyone is staining for cells and that's where the pixel classifer can be useful. The [QuPath documentation](https://qupath.readthedocs.io/en/latest/docs/tutorials/pixel_classification.html) guides through a simple and more complex classification. 
 
 ### Using an OMERO server?
-OMERO remotley stores images and QuPaths OMERO extension provides a great way to interact and analyze them without filling up your computers storage. More on the extension can be found [here](https://github.com/qupath/qupath-extension-omero)
+OMERO remotely stores images and QuPaths OMERO extension provides a great way to interact and analyze them without filling up your computers storage. More on the extension can be found [here](https://github.com/qupath/qupath-extension-omero)
 
