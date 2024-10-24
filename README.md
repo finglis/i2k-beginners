@@ -20,16 +20,16 @@ A new feature for 0.6 is the QuPath Tour. Under the menu select Help → QuPath 
 The following section takes you through a very basic workflow from image to results. We will use this workflow later to expand on certain aspects to tailor the workflow to different user needs. 
 
 ### Create a project
-For easy organisation of images and analysis we recommend working on your images within [projects](https://qupath.readthedocs.io/en/0.5/docs/tutorials/projects.html). The quickest way to create a project is by making an empty folder on your desktop and dragging and dropping into the QuPath window. 
+For easy organisation of images and analysis we recommend working on your images within [projects](https://qupath.readthedocs.io/en/latest/docs/tutorials/projects.html). The quickest way to create a project is by making an empty folder on your desktop and dragging and dropping into the QuPath window. 
 
 ### Import images
-Once you have a project, [images can also be added](https://qupath.readthedocs.io/en/0.5/docs/tutorials/projects.html#add-images) to the project by dragging and dropping them into QuPath. This will prompt the import window where you can finely tune some of the parameters if required. 
+Once you have a project, [images can also be added](https://qupath.readthedocs.io/en/latest/docs/tutorials/projects.html#add-images) to the project by dragging and dropping them into QuPath. This will prompt the import window where you can finely tune some of the parameters if required. 
 
 ### Set the image stain type
-When you open an imported image, you will be prompted to select the type of image. This lets QuPath know what stains the image has so it can assign them “channels”. For example, an H&E image would have a channel for Haematoxylin and Eosin after the default color profiles have been extracted. More on extracting the stains can be found in the [QuPath docs](https://qupath.readthedocs.io/en/0.5/docs/tutorials/separating_stains.html).
+When you open an imported image, you will be prompted to select the type of image. This lets QuPath know what stains the image has so it can assign them “channels”. For example, an H&E image would have a channel for Haematoxylin and Eosin after the default color profiles have been extracted. More on extracting the stains can be found in the [QuPath docs](https://qupath.readthedocs.io/en/latest/docs/tutorials/separating_stains.html).
 
 ### Draw annotation
-Define the region you would like to count some cells within using the [annotation tools](https://qupath.readthedocs.io/en/0.5/docs/starting/annotating.html) within the toolbar. If you create one you dislike, they can be easily deleted by selecting so they are yellow (instead of red) and then press the backspace key. The bigger the annotation the more effort it will take for the computer so it’s best to start with a smaller annotation for now and make it bigger once we know the parameters you’re looking for. 
+Define the region you would like to count some cells within using the [annotation tools](https://qupath.readthedocs.io/en/latest/docs/starting/annotating.html) within the toolbar. If you create one you dislike, they can be easily deleted by selecting so they are yellow (instead of red) and then press the backspace key. The bigger the annotation the more effort it will take for the computer so it’s best to start with a smaller annotation for now and make it bigger once we know the parameters you’re looking for. 
 
 ### Detect cells
 Now we have a region, we can count some cells! In the menu, select Analyze → Cell detection → Cell detection. Lots of parameters can be edited in this window to suit your specific cells and we reccomend spending some time finely tuning these to your cell types. 
