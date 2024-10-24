@@ -53,7 +53,7 @@ The measurements can either be exported from the [measurement table](https://qup
 
 ![image](https://qupath.readthedocs.io/en/latest/_images/measurement_table.png)
 
-## What if?
+## What if...
 
 ### The cell detection isn't good enough?
 Instanseg! Try some pre-trained segmentation models by following the instructions [here](https://github.com/qupath/qupath-extension-instanseg).
